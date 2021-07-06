@@ -987,47 +987,6 @@ div, h1, ::after, ::before, section{
   z-index: 10;
 }
 
-.part48-console{
-  width: 40px;
-  height: 40px;
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
-  left: -20px;
-  top: -20.5px;
-  z-index: 10;
-}
-
-.part48-console::after{
-  content: "";
-  width: 40px;
-  height: 40px;
-  border-top: 1px solid #000;
-  border-right:  1px solid #000;
-  right: -1200px;
-  top: -2px;
-  z-index: 10;
-}
-
-.part49-console{
-  width: 40px;
-  height: 40px;
-  border-bottom:  1px solid #000;
-  border-left: 1px solid #000;
-  bottom: -120px;
-  left:-20px;
-  z-index: 10;
-}
-
-.part49-console::after{
-  content: "";
-  width: 40px;
-  height: 40px;
-  border-bottom:  1px solid #000;
-  border-right: 1px solid #000;
-  bottom: 0px;
-  right: -1200px;
-  z-index: 10;
-}
 
 .name-console{
   font-family: 'sega-font';
@@ -1225,4 +1184,23 @@ div, h1, ::after, ::before, section{
   top: 227px;
   transform: rotateZ(13deg);
   z-index: 44;
+}
+
+.base-console-video{
+  width: 1200px;
+  height: 640px;
+  display: flex;
+  margin-top: 821px;
+  left: 50%;
+  margin-left: -600px;
+  background-color: #2225252e;
+  z-index: 1;
+}
+
+.video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;;
 }
